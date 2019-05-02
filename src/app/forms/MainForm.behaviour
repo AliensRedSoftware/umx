@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="device">
+    <behaviour allowedSymbols="0123456789." matchCase="" maxLength="15" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+</behaviours>

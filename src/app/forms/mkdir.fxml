@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48" prefWidth="288" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="48" prefWidth="288" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TextField alignment="CENTER" editable="true" focusTraversable="true" id="name" layoutX="8" layoutY="8" prefColumnCount="12" prefHeight="32" prefWidth="272" promptText="Название папки" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-name" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="13"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

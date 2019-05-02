@@ -1,0 +1,21 @@
+{
+  "props": {
+    "author": "Merkus",
+    "description": "Работа с adb",
+    "singleton": true
+  },
+  "components": {
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 96,
+      "y": 48,
+      "props": {
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    }
+  }
+}
