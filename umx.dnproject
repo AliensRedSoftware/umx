@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="kiss_me" authorOS="Linux" createdAt="1550170955980" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="umx" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1556806009564">
+<project author="kiss_me" authorOS="Linux" createdAt="1550170955980" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="umx" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1559849769862">
   <tree>
     <expanded>
     <path src=""/>
-      <path src="/android"/>
-      <path src="/android/platform-tools"/>
       <path src="/src"/>
       <path src="/src/app"/>
-      <path src="/src/app/forms"/>
       <path src="/src/app/modules"/>
+      <path src="/src/app/forms"/>
+      <path src="/android"/>
+      <path src="/android/platform-tools"/>
     </expanded>
   </tree>
   <openedFiles>
   <file src="umx.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file selected="1" src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/MainForm.php"/>
     <file src="src/app/modules/adb.php"/>
     <file src="src/app/forms/apkmanager.php"/>
     <file src="src/app/forms/disk.php"/>
     <file src="src/app/forms/viewscreenshot.php"/>
     <file src="src/app/forms/urlshowbrowser.php"/>
     <file src="src/app/modules/AppModule.php"/>
+    <file selected="1" src="src/app/forms/rms.php"/>
   </openedFiles>
   <files/>
   <behaviours>

@@ -10,7 +10,6 @@ class MainForm extends AbstractForm {
      */
     function doDisconnectAction(UXEvent $e = null) {    
         $this->disconnectDevice($this->Devices->selectedItem);
-
     }
 
     /**

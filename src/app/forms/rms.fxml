@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472" prefWidth="640" styleClass="">
   <children>
-    <Panel AnchorPane.bottomAnchor="80" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="8" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="392" prefWidth="624" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel AnchorPane.bottomAnchor="128" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="8" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="336" prefWidth="624" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <ImageViewEx AnchorPane.bottomAnchor="7" AnchorPane.leftAnchor="7" AnchorPane.rightAnchor="7" AnchorPane.topAnchor="7" autoSize="false" centered="false" focusTraversable="false" height="376" id="image" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="608">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-image" visible="1"/>
+        <ScrollPane AnchorPane.bottomAnchor="7" AnchorPane.leftAnchor="7" AnchorPane.rightAnchor="7" AnchorPane.topAnchor="7" focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="8" layoutY="8" prefHeight="328" prefWidth="608" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="426" prefWidth="686" styleClass="">
+              <children>
+                <ImageViewEx AnchorPane.bottomAnchor="69" AnchorPane.leftAnchor="7" AnchorPane.rightAnchor="59" AnchorPane.topAnchor="7" autoSize="true" centered="false" focusTraversable="false" height="350" id="image" layoutX="7" layoutY="7" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="620">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </ImageViewEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-image" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+        <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="13"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
-    <Panel AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="8" layoutY="408" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="64" prefWidth="116" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel AnchorPane.bottomAnchor="56" AnchorPane.leftAnchor="8" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="8" layoutY="352" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="64" prefWidth="116" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <Button AnchorPane.bottomAnchor="14" AnchorPane.leftAnchor="72" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="right" layoutX="73" layoutY="41" prefHeight="8" prefWidth="16" styleClass="button " text="Вправо" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button AnchorPane.bottomAnchor="14" AnchorPane.leftAnchor="72" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="right" layoutX="73" layoutY="23" prefHeight="8" prefWidth="16" styleClass="button " text="Вправо" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/right.png" id="data-right" visible="1"/>
-        <Button AnchorPane.bottomAnchor="14" AnchorPane.leftAnchor="8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="left" layoutX="9" layoutY="25" prefHeight="24" prefWidth="24" styleClass="button " text="Влево" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button AnchorPane.bottomAnchor="14" AnchorPane.leftAnchor="8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="left" layoutX="9" layoutY="23" prefHeight="24" prefWidth="24" styleClass="button " text="Влево" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/left2.png" id="data-left" visible="1"/>
-        <Button AnchorPane.bottomAnchor="6" AnchorPane.leftAnchor="40" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="down" layoutX="41" layoutY="49" prefHeight="8" prefWidth="16" styleClass="button " text="Назад" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button AnchorPane.bottomAnchor="6" AnchorPane.leftAnchor="40" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="down" layoutX="41" layoutY="31" prefHeight="8" prefWidth="16" styleClass="button " text="Назад" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/down.png" id="data-down" visible="1"/>
-        <Button AnchorPane.bottomAnchor="30" AnchorPane.leftAnchor="40" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="up" layoutX="41" layoutY="33" prefHeight="0" prefWidth="16" styleClass="button " text="Вверх" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button AnchorPane.bottomAnchor="30" AnchorPane.leftAnchor="40" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="up" layoutX="41" layoutY="7" prefHeight="0" prefWidth="16" styleClass="button " text="Вверх" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
@@ -47,43 +56,79 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
-    <Panel AnchorPane.bottomAnchor="32" AnchorPane.rightAnchor="8" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel3" layoutX="424" layoutY="408" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="208" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel AnchorPane.bottomAnchor="48" AnchorPane.rightAnchor="8" backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel3" layoutX="384" layoutY="352" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="72" prefWidth="248" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="Menu" layoutX="88" layoutY="8" prefHeight="16" prefWidth="24" styleClass="button " text="Меню" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="Menu" layoutX="128" layoutY="7" prefHeight="16" prefWidth="24" styleClass="button " text="Меню" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/gear.png" id="data-Menu" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="home" layoutX="48" layoutY="8" prefHeight="16" prefWidth="32" styleClass="button " text="Домашняя" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="home" layoutX="88" layoutY="7" prefHeight="16" prefWidth="32" styleClass="button " text="Домашняя" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/home.png" id="data-home" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="execute" layoutX="168" layoutY="8" prefHeight="26" prefWidth="16" styleClass="button " text="Ввод" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="execute" layoutX="208" layoutY="7" prefHeight="26" prefWidth="16" styleClass="button " text="Ввод" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/tick.png" id="data-execute" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="screenshotupdate" layoutX="128" layoutY="8" prefHeight="16" prefWidth="0" styleClass="button " text="Обновить" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="screenshotupdate" layoutX="168" layoutY="7" prefHeight="16" prefWidth="0" styleClass="button " text="Обновить" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/screenshot2.png" id="data-screenshotupdate" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="explorer" layoutX="8" layoutY="8" prefHeight="16" prefWidth="8" styleClass="button " text="" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="explorer" layoutX="48" layoutY="7" prefHeight="16" prefWidth="8" styleClass="button " text="" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/disk_dark.png" id="data-explorer" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="back" layoutX="8" layoutY="7" prefHeight="8" prefWidth="8" styleClass="button " text="Кнопка" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/left2.png" id="data-back" tooltipText="Назад" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="power" layoutX="208" layoutY="40" prefHeight="26" prefWidth="24" styleClass="button " text="Кнопка" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/power.png" id="data-power" tooltipText="Выключить устройства" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="reboot" layoutX="168" layoutY="40" prefHeight="26" prefWidth="24" styleClass="button " text="Кнопка" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/reboot.png" id="data-reboot" tooltipText="Перезагрузка устройства" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="rebootbootloader" layoutX="128" layoutY="40" prefHeight="26" prefWidth="24" styleClass="button " text="Кнопка" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/gnome_session_reboot.png" id="data-rebootbootloader" tooltipText="Перезагрузка устройства (bootloader)" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="13"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+    <TextField AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="48" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="keylisting" layoutX="8" layoutY="432" prefColumnCount="12" prefHeight="32" prefWidth="584" promptText="Текст прослушивание" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-keylisting" visible="1"/>
+    <Button AnchorPane.bottomAnchor="7" AnchorPane.rightAnchor="8" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="acceptkey" layoutX="598" layoutY="433" prefHeight="32" prefWidth="32" styleClass="button " text="Кнопка" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/tick.png" id="data-acceptkey" visible="1"/>
   </children>
 </AnchorPane>

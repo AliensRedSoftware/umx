@@ -425,4 +425,17 @@ class adb extends AbstractModule {
         $form->hidePreloader();
     }
     
+    /**
+     * Действие text поля
+     */
+    public function text ($text) {  
+        $form = app()->getForm(MainForm);
+        $ip = $form->Devices->selectedItem;
+        $form->showPreloader('Ожидание запроса...');
+        fs::delete('log');
+        execute($GLOBALS['cmd'] . 'android' . fs::separator() . 'platform-tools' . fs::separator() . $GLOBALS['file_execute'] . " shell input text '$text'" . $GLOBALS['space'], true);
+        file_put_contents('log' , trim(Stream::getContents('log')));
+        $form->hidePreloader();
+    }
+    
 }
